@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Pizza</title>
+  </head>
+
+  <body>
+    <div id="all">
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+          <h1>Bellisimo Pizza</h1>
+           
+          </div>
+
+          <div class="navbar">
+         
+            <ul class="navbar__ul">
+              <li class="ul-li first">Bosh sahifa</li>
+              <li class="ul-li second">Buyurtma qilish</li>
+              <li class="ul-li third">Biz bilan aloqa</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="main">
+        <div class="title">
+          <h1>Pitsa buyurtma qilish</h1>
+        </div>
+
+        <div class="col">
+          <div class="row">
+            <div class="noni">
+              <p>Noni qanday bo'lsin?</p>
+
+              <select id="qalinligi">
+                <option>Yupqa</option>
+                <option>Ortacha</option>
+                <option>Qalin</option>
+              </select>
+            </div>
+
+            <div class="katta">
+              <div class="katta__h1">Kattaligi</div>
+              <div class="flex_box">
+                <div class="box" id="box-1">25cm</div>
+                <div class="box" id="box-2">30cm</div>
+                <div class="box" id="box-3">35cm</div>
+              </div>
+            </div>
+
+            <div class="usti">
+              <h1 class="usti__title">Ustiga nima solaylik ?</h1>
+
+              <ul class="ul-1">
+                <input type="checkbox" id="pomidor" />
+                <label>Pomidor</label>
+                <br />
+                <input type="checkbox" id="bodring" />
+                <label>Tuzlangan bodring</label>
+              </ul>
+
+              <ul class="ul-2">
+                <input type="checkbox" id="kurka" />
+                <label>Kurka go'shti</label>
+                <br />
+                <input type="checkbox" id="qoziqorin" />
+                <label>Qo'ziqorin</label>
+              </ul>
+
+              <ul class="ul-3">
+                <input type="checkbox" id="zaytun" />
+                <label>Zaytun</label>
+                <br />
+                <input type="checkbox" id="qazi" />
+                <label>Qazi</label>
+              </ul>
+            </div>
+
+            <div class="qoshimcha">
+              <h2 class="q__title">Qo'shimcha</h2>
+              <input type="checkbox" id="achiq" /> <label>Achchiq</label>
+              <input type="checkbox" id="sosiska" /> <label>Sosiskali</label>
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="result">
+              <p id="noni">
+                <span><strong>Noni:</strong></span>
+              </p>
+              <p id="katta">
+                <span><strong>Kattaligi:</strong></span>
+              </p>
+            </div>
+
+            <div class="result-2">
+              <h3 class="h3">Ustida:</h3>
+              <p class="usti-p"></p>
+              <p class="p-2"></p>
+              <p class="p-3"></p>
+              <p class="p-4"></p>
+              <p class="p-5"></p>
+              <p class="p-6"></p>
+            </div>
+
+            <div class="result-3">
+              <h3>Qo'shimcha:</h3>
+              <p class="p-7"></p>
+              <p class="p-8"></p>
+            </div>
+
+            <div class="result-4">
+              <button class="btn" id="btn">Buyurtma Berish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="none-1">
+        <h1 class="modal-h1">Buyurtmangiz qabul qilindi !
+            Buyurtmangiz tez orada yetkazib beriladi.
+        </h1>
+        <img src="./img/succes.png" alt="" class="succes" />
+      </div>
+
+      <div class="none-2">
+        <h1 class="modal_2-h1">Buyurtmangiz qabul qilinmadi !</h1>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-logo">
+        <h1>Pizza</h1>
+
+        <ul class="footer-ul">
+          <li class="footer-li">Buyurtma qilish</li>
+          <li class="footer-li">Manzillar</li>
+          <li class="footer-li">Biz bilan aloqa</li>
+        </ul>
+
+        <ul class="icon-ul">
+          <li class="icon-li"><i class="ri-facebook-circle-fill"></i></li>
+          <li class="icon-li"><i class="ri-instagram-fill"></i></li>
+          <li class="icon-li"><i class="ri-twitter-fill"></i></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./plugin.js"></script>
+
+  <script src="./script.js"></script>
+</html>
